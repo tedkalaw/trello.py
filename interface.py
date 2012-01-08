@@ -21,3 +21,5 @@ except IOError:
 
 token = _token_file.read()
 _token_file.close()
+
+ti = trello.TrelloInterface(TEDS_KEY, token)

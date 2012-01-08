@@ -1,11 +1,10 @@
-#TODO: switch to httplib2
-import urllib
+import httplib2
 
 class TrelloInterface:
-  def __init__(self, token, app_key):
+  def __init__(self, app_key, token):
     self.app_key = app_key
     self.token = token
 
-#note:
-#it should be 
-#api.trello.com/queryorwhateveritis  **?key=self.app_key&token=self.token**
+  def request_url(action)
+    return 'api.trello.com/{0}?key={1}&token={2}'.format(action, self.app_key, self.token)
+  end
