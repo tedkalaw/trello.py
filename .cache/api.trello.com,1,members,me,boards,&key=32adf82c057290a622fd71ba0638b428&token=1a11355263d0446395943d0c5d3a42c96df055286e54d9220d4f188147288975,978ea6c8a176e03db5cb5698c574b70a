@@ -1,0 +1,8 @@
+status: 200
+content-length: 861
+content-location: https://api.trello.com/1/members/me/boards?&key=32adf82c057290a622fd71ba0638b428&token=1a11355263d0446395943d0c5d3a42c96df055286e54d9220d4f188147288975
+x-powered-by: Express
+connection: keep-alive
+content-type: application/json; charset=utf-8
+
+[{"id":"4e7a44671a5c4f96fd3c053e","name":"Welcome Board","desc":"","closed":true,"url":"https://trello.com/board/welcome-board/4e7a44671a5c4f96fd3c053e"},{"id":"4e7a6628d9273f24561aa4b1","name":"Daily Activities","desc":"","closed":false,"idOrganization":"","url":"https://trello.com/board/daily-activities/4e7a6628d9273f24561aa4b1"},{"id":"4e9df6abc362c8000000528e","name":"GhostDrop","desc":"","closed":false,"idOrganization":"","url":"https://trello.com/board/ghostdrop/4e9df6abc362c8000000528e"},{"id":"4ec30ec0b3e57b231008dd32","name":"Personal Ghostdrop Work","desc":"","closed":false,"idOrganization":"","url":"https://trello.com/board/personal-ghostdrop-work/4ec30ec0b3e57b231008dd32"},{"id":"4f094d85657850aa72299b9d","name":"trello.py","desc":"","closed":false,"idOrganization":"","url":"https://trello.com/board/trello-py/4f094d85657850aa72299b9d"}]
