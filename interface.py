@@ -12,4 +12,12 @@ args = parser.parse_args()
 if args.token:
   with open('./.token', mode='w', encoding='utf-8') as store:
     store.write(args.token)
+    print("Successfuly stored token.")
 
+try:
+  _token_file = open('./.token', encoding='utf-8')
+except IOError:
+  print("You need to add your user token.\nThis can be generated at:\n{0}".format(TOKEN_GENERATOR))
+
+token = _token_file.read()
+_token_file.close()
