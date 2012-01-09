@@ -28,4 +28,6 @@ if args.t:
   exit()
 
 ti = trello.TrelloInterface(TEDS_KEY, token)
-print(ti.boards())
+print(ti.request_url('members/me/cards'))
+for board in ti.boards():
+  print(board.lists())
